@@ -1,0 +1,104 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Мастер и Маргарита",
+      "author": "Михаил Булгаков",
+      "publisher": "Азбука-Аттикус",
+      "price": 450,
+      "genres": ["Классика", "Мистика", "Фантастика"],
+      "bookCoverLink": "https://content.img-gorod.ru/pim/products/images/a0/cd/0190b9a3-724a-71e0-9c86-4fe230cea0cd.jpg?width=0&height=1200&fit=bounds",
+      "description": "Роман о борьбе добра и зла, любви и предательстве, разворачивающийся на фоне Москвы 1930-х годов."
+    },
+    {
+      "id": 2,
+      "title": "Преступление и наказание",
+      "author": "Фёдор Достоевский",
+      "publisher": "Эксмо",
+      "price": 380,
+      "genres": ["Классика", "Драма", "Психология"],
+      "bookCoverLink": "https://cdn.ast.ru/v2/ASE000000000703427/COVER/cover1__w220.jpg",
+      "description": "Глубокое исследование человеческой психологии на фоне сложного морального выбора героя."
+    },
+    {
+      "id": 3,
+      "title": "Война и мир",
+      "author": "Лев Толстой",
+      "publisher": "АСТ",
+      "price": 750,
+      "genres": ["Классика", "История", "Эпос"],
+      "bookCoverLink": "https://mnogoknig.lt/storage/media/400409/eiu3u6gd-2787162detailjpg.jpg",
+      "description": "Эпическое повествование о жизни дворянской России в период Наполеоновских войн."
+    },
+    {
+      "id": 4,
+      "title": "Пикник на обочине",
+      "author": "Аркадий и Борис Стругацкие",
+      "publisher": "Текст",
+      "price": 420,
+      "genres": ["Фантастика", "Философия", "Драма"],
+      "bookCoverLink": "https://content.img-gorod.ru/pim/products/images/19/5e/018fa150-cc03-7d8c-8b35-8ca750b1195e.jpg?width=0&height=1200&fit=bounds",
+      "description": "Загадочная история о сталкере, исследующем инопланетную Зону и её аномалии."
+    },
+    {
+      "id": 5,
+      "title": "1984",
+      "author": "Джордж Оруэлл",
+      "publisher": "Азбука-Аттикус",
+      "price": 390,
+      "genres": ["Антиутопия", "Фантастика", "Политика"],
+      "bookCoverLink": "https://img.labirint.ru/rcimg/60be38a53a5091af96f56bf2afade8c8/960x540/comments_pic/2020/origin_0_26be716ce41f433741b3a79180abb426.jpg?1589176906",
+      "description": "Мрачная антиутопия о тоталитарном мире, где даже мысли под контролем."
+    },
+    {
+      "id": 6,
+      "title": "Три товарища",
+      "author": "Эрих Мария Ремарк",
+      "publisher": "Эксмо",
+      "price": 410,
+      "genres": ["Классика", "Драма", "Романтика"],
+      "bookCoverLink": "https://mnogoknig.lt/storage/media/481943/hh3r9ywg-397jpg.jpg",
+      "description": "Трогательная история о дружбе и любви в тени сложных жизненных испытаний."
+    },
+    {
+      "id": 7,
+      "title": "Гарри Поттер и философский камень",
+      "author": "Дж. К. Роулинг",
+      "publisher": "Росмэн",
+      "price": 500,
+      "genres": ["Фэнтези", "Приключения", "Детская литература"],
+      "bookCoverLink": "https://mnogoknig.lt/storage/media/648277/2405917-2.jpg",
+      "description": "Начало магического приключения, где Гарри узнаёт о своем необычном происхождении."
+    },
+    {
+      "id": 8,
+      "title": "Шантарам",
+      "author": "Грегори Дэвид Робертс",
+      "publisher": "Азбука-Аттикус",
+      "price": 650,
+      "genres": ["Приключения", "Драма", "Философия"],
+      "bookCoverLink": "https://m.media-amazon.com/images/I/81kNEgvCZsL._UF1000,1000_QL80_.jpg",
+      "description": "Увлекательное повествование о жизни беглеца в Индии, полном опасностей и открытий."
+    },
+    {
+      "id": 9,
+      "title": "Унесённые ветром",
+      "author": "Маргарет Митчелл",
+      "publisher": "Эксмо",
+      "price": 470,
+      "genres": ["Романтика", "История", "Драма"],
+      "bookCoverLink": "https://cdn.ast.ru/v2/ASE000000000851358/COVER/cover1__w340.jpg",
+      "description": "Классический роман о любви и выживании на фоне гражданской войны в США."
+    },
+    {
+      "id": 10,
+      "title": "Дюна",
+      "author": "Фрэнк Герберт",
+      "publisher": "АСТ",
+      "price": 680,
+      "genres": ["Фантастика", "Приключения", "Политика"],
+      "bookCoverLink": "https://mnogoknig.lt/storage/media/373050/zcg7v72t.jpg",
+      "description": "Эпическая фантастика о борьбе за власть и ресурсы на пустынной планете Арракис."
+    }
+  ]
+}

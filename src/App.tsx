@@ -1,4 +1,5 @@
 import '@mantine/core/styles.css';
+import {Header} from "@/components/Header/Header";
 
 import { MantineProvider } from '@mantine/core';
 import { Router } from './Router';

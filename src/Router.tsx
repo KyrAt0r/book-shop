@@ -1,13 +1,36 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { HomePage } from './pages/Home.page';
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+import { FavoritePage } from '@/pages/Favorite.page';
+import { ShopPage } from '@/pages/Card.page';
+import { HomePage } from '@/pages/Home.page';
+import { Header } from '@/components/Header/Header';
+
+const Layout = () => (
+  <>
+    <Header />
+    <Outlet />
+  </>
+);
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <HomePage />,
+    element: <Layout />, // Layout с Header
+    children: [
+      {
+        path: '/',
+        element: <HomePage />,
+      },
+      {
+        path: '/favorites',
+        element: <FavoritePage />,
+      },
+      {
+        path: '/cart',
+        element: <ShopPage />,
+      },
+    ],
   },
 ]);
 
-export function Router() {
+export const Router = () => {
   return <RouterProvider router={router} />;
-}
+};

@@ -17,11 +17,14 @@
     "vitest:watch": "vitest",
     "test": "npm run typecheck && npm run prettier && npm run lint && npm run vitest && npm run build",
     "storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build"
+    "storybook:build": "storybook build",
+    "startMockServer": "json-server --watch db/db.json --port 3001"
   },
   "dependencies": {
     "@mantine/core": "7.15.1",
     "@mantine/hooks": "7.15.1",
+    "@tabler/icons-react": "^3.26.0",
+    "axios": "^1.7.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.0.1"
@@ -44,6 +47,7 @@
     "eslint-plugin-react": "^7.37.2",
     "identity-obj-proxy": "^3.0.0",
     "jsdom": "^25.0.1",
+    "json-server": "^1.0.0-beta.3",
     "postcss": "^8.4.49",
     "postcss-preset-mantine": "1.17.0",
     "postcss-simple-vars": "^7.0.1",
